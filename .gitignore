@@ -1,0 +1,56 @@
+# Go
+/bin/
+/pkg/
+/vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go modules
+go.sum
+*.mod~
+
+# Logs
+*.log
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ambientes
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Docker
+**/docker-compose.override.yml
+**/.docker/
+**/.env.docker
+
+# Node (caso tenha frontend junto no futuro)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Mac/Linux file system
+.AppleDouble
+.LSOverride
+
+# Coverage
+coverage/
+*.coverprofile
+
+# Output
+main
